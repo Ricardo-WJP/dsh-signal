@@ -8,13 +8,19 @@ Signal 是独立的视觉与只读用量插件，不是登录插件，不修改�
 
 需要 Node.js 22+ 与 DeepSeek Harness。当前版本为 **0.6.12**；已在 Windows Desktop / DSH 0.1.2-rc.1 验证，其他宿主版本尚需验证。
 
-从 GitHub 安装已构建版本：
+推荐从 [npm](https://www.npmjs.com/package/dsh-signal) 安装：
+
+```sh
+npx @deepseek-ai/dsh plugin --profile web add dsh-signal@0.6.12
+```
+
+也可以从 GitHub 安装已构建版本：
 
 ```sh
 npx @deepseek-ai/dsh plugin --profile web add github:Ricardo-WJP/dsh-signal#v0.6.12
 ```
 
-也可下载 GitHub Release 中的 `.tgz`，通过宿主支持的本地包安装流程安装。使用其他 profile 时，请替换 `web`。npm 发布完成前，请使用上述 GitHub 安装来源。
+也可下载 GitHub Release 中的 `.tgz`，通过宿主支持的本地包安装流程安装。使用其他 profile 时，请替换 `web`。npm 与 GitHub Release 的 0.6.12 安装包校验值一致。
 
 ## 功能
 
