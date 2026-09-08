@@ -1,0 +1,4 @@
+# DSH Signal mounts one host service; its browser bundle occupies official UI slots.
+- insert:
+    - id: signal
+      name: dsh-signal
